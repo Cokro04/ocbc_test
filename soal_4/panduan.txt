@@ -1,0 +1,13 @@
+untuk running project 
+
+1 masuk ke path /soal_4 pada terminal / cmd
+2 jalankan perintah go run main.go
+3 sesuaikan data berdasarkan kebutuhan
+func main() {
+	graph_nodes := 3
+	graph_from := []int{1, 2, 1}
+	graph_to := []int{2, 3, 3}
+	graph_weight := []int{5, 3, 4}
+
+	fmt.Println(getMinimumCostMST(graph_nodes, graph_from, graph_to, graph_weight, 1, 3)) // Output: 7
+}
