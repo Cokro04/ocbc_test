@@ -1,0 +1,4 @@
+untuk running project 
+
+1 masuk ke path /soal_5 pada terminal / cmd
+2 jalankan perintah go run main.go
