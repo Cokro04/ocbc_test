@@ -1,0 +1,9 @@
+untuk running project 
+
+1 masuk ke path /soal_1 pada terminal / cmd
+2 jalankan perintah go run main.go
+3 Masukan parameter pada cmd 
+Barcelona (tekan enter)
+2011 (tekan enter)
+
+4. tunggu beberapa detik nantina muncul total jumlahnya
