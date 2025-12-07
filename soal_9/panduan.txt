@@ -1,0 +1,6 @@
+untuk running project 
+
+1 masuk ke path /soal_9 pada terminal / cmd
+2 jalankan perintah go run main.go
+3 masukan parameter sesuai pada soal 1000 800 0.05 0.08
+4 tekan enter maka akan muncul angka tahun ke -n 
