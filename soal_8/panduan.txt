@@ -1,0 +1,29 @@
+untuk running project 
+
+1 masuk ke path /soal_8 pada terminal / cmd
+2 jalankan perintah go mod tidy && go mod vendor
+3 jalankan perintah go run main.go
+4 buka pstman atau yang sejenis
+5 masukan curl berikut untuk test 
+
+curl --location 'http://localhost:8080/products' \
+--header 'Content-Type: application/json' \
+--data '{
+    "sku": "SKU-12345678",
+    "productName": "Mouse",
+    "quantityInStock": 10,
+    "price": 20,
+    "category": "Electronics"
+}'
+
+curl --location 'http://localhost:8080/products' \
+--header 'Content-Type: application/json' \
+--data '{
+    "sku": "SKU-12345678",
+    "productName": "",
+    "quantityInStock": -1,
+    "price": 0,
+    "category": "X"
+}'
+
+6. akan muncul ststus code 200 jika sukses dan 400 jika gagal 
